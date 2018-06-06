@@ -1,0 +1,46 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: $bg-color;
+  color: $text-color;
+  font-size: $global-font-size;
+  line-height: $global-line-height;
+  font-family: $global-font-family;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: $link-color;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+h1 {
+  font-size: 27px;
+  font-weight: 400;
+  margin: 0 0 38px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0 0 12px;
+  color: $gray-color;
+}
+
+h3 {
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0;
+}

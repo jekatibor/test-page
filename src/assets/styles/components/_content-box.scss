@@ -1,0 +1,41 @@
+.content-box {
+  overflow: hidden;
+  position: relative;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid #dbdfea;
+  margin-bottom: 40px;
+  @media (max-width: $breakpoint-small) {
+    margin-bottom: 28px;
+  }
+  &-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    border-bottom: 1px solid #dbdfea;
+    @media (max-width: $breakpoint-small) {
+      padding: 15px;
+    }
+    strong {
+      font-size: 16px;
+      font-weight: 600;
+    }
+  }
+  .button {
+    width: 30px;
+    height: 30px;
+    display: block;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid $gray-color;
+    color: #7f90a4;
+    font-size: 22px;
+    line-height: 28px;
+    text-decoration: none;
+    &:hover {
+      background: #7f90a4;
+      color: $invert-color;
+    }
+  }
+}

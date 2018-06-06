@@ -1,0 +1,30 @@
+// Base colors
+
+$bg-color:                                     #f8f9fb;
+$bg-muted:                                     #f5faff;
+$text-color:                                   #334051;
+
+$link-color:                                   #1c95fe;
+$invert-color:                                 #ffffff;
+$gray-color:                                   #abb1bf;
+
+$success:                                      #45b853;
+$warning:                                      #f9be48;
+$danger:                                       #d55741;
+$disabled:                                     #c2cbd4;
+
+
+// Breakpoints
+
+$breakpoint-xsmall:                            420px;
+$breakpoint-small:                             640px;
+$breakpoint-medium:                            900px;
+$breakpoint-large:                             1200px;
+$breakpoint-xlarge:                            1600px;
+
+
+// Typography
+
+$global-font-family:                            'Open Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$global-font-size:                              13px;
+$global-line-height:                            1.56;
